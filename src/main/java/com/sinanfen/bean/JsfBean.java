@@ -8,14 +8,12 @@ import lombok.Setter;
 
 @Named(value = "cdiBean")
 @RequestScoped
-@Setter
-@Getter
+@Getter @Setter
 public class JsfBean {
+
     private String patika;
 
     public JsfBean() {
-        this.patika = "Spring boot";
+        patika="Spring Boot Eğitime Hoşgeldiniz";
     }
-
-
 }

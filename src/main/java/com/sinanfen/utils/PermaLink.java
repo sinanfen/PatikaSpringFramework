@@ -2,5 +2,5 @@ package com.sinanfen.utils;
 
 public class PermaLink
 {
-    //GitHub:
+    //GitHub: https://github.com/sinanfen/PatikaSpringFramework
 }

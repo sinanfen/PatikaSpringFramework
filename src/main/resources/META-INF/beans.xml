@@ -11,4 +11,10 @@
                       http://xmlns.jcp.org/xml/ns/javaee/beans_2_0.xsd"
        bean-discovery-mode="all">
 
+    <alternatives>
+        <class>com.sinanfen.alternative.Patron1</class>
+<!--
+        <class>com.sinanfen.alternative.Patron2</class>
+-->
+    </alternatives>
 </beans>

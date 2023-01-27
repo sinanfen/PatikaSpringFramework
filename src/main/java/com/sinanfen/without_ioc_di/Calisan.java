@@ -1,4 +1,4 @@
-package com.sinanfen.iocsiz_disiz;
+package com.sinanfen.without_ioc_di;
 
 import jakarta.enterprise.context.ApplicationScoped;
 import jakarta.inject.Named;

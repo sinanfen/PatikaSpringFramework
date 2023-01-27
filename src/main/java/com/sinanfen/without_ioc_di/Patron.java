@@ -1,4 +1,4 @@
-package com.sinanfen.iocsiz_disiz;
+package com.sinanfen.without_ioc_di;
 
 
 public class Patron {

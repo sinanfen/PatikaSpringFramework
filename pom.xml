@@ -12,8 +12,8 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <maven.compiler.target>18</maven.compiler.target>
-        <maven.compiler.source>18</maven.compiler.source>
+        <maven.compiler.target>17</maven.compiler.target>
+        <maven.compiler.source>17</maven.compiler.source>
     </properties>
 
     <dependencies>
@@ -42,13 +42,13 @@
             <scope>provided</scope>
         </dependency>
 
-        <!--JSF -->
+        <!-- https://mvnrepository.com/artifact/jakarta.faces/jakarta.faces-api -->
         <dependency>
             <groupId>jakarta.faces</groupId>
             <artifactId>jakarta.faces-api</artifactId>
             <version>3.0.0</version>
-            <scope>provided</scope>
         </dependency>
+
 
         <!--Servlet -->
         <dependency>
